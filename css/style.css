@@ -25,9 +25,6 @@ body{
 .link-styled:hover{
     color: #3C3C3C;
 }
-.link-styled:nth-child(4){
-    margin: 0px 0px;
-}
 
 /* home-section starts here */
 .home-section {
@@ -160,11 +157,30 @@ body{
     line-height: 26px;
 }
 
+/* footer-section starts here */
+.footer-section{
+    background-color: #21233d ;
+    padding: 40px 0px;
+}
 
-
-
-
-
+.creadit{
+    text-decoration: none;
+    color:#85A019 ;
+}
+.creadit:hover{
+    color:#85A019 ;
+}
+.icons{
+    padding: 7px;
+    border-radius:50%;
+    background-color:#85A019;
+    color:#FFFF;
+    margin-right: 5px;
+    cursor: pointer;
+}
+.icons:hover{
+    color: #FFF;
+}
 /* medium device queary */
 
 @media screen and (max-width:1024px){
@@ -174,7 +190,7 @@ body{
         line-height: 58px;
     }
     .logo{
-        width:200px;
+        width:60px;
     }
     .woman-title{
         font-size: 40px;
@@ -196,7 +212,7 @@ body{
         text-align: center;
     }
     .logo{
-        width:150px;
+        width:50px;
     }
     .link-styled{
         margin: 5px 0px;
