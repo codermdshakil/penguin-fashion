@@ -1,0 +1,148 @@
+
+/* google fonts linked here  */
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Roboto:ital,wght@0,300;0,400;0,500;0,700;0,900;1,400&display=swap');
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Roboto', sans-serif;
+}
+/* header-section starts here */
+
+.logo{
+    width: 292px;
+}
+
+.nav-link{
+    color: #3C3C3C;
+    font-weight: 600;
+    text-decoration: none;
+    font-family: 'Roboto', sans-serif;
+    margin: 0px 10px;
+    cursor: pointer;
+  
+}
+.nav-link li{
+    list-style: none;
+}
+.link-styled:hover{
+    color: #3C3C3C;
+}
+.link-styled:nth-child(4){
+    margin: 0px 0px;
+}
+
+/* home-section starts here */
+.home-section {
+    padding-top: 100px;
+}
+.home-title{
+    font-family: 'Bebas Neue', cursive;
+    color:#FABE4C;
+    font-size: 80px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 80px;
+    line-height: 96px;
+}
+.title{
+   color:#363958 ;
+    
+}
+.btn{
+    color:#FFF;
+    text-transform: uppercase;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 200;
+    font-size: 15px;
+    line-height: 24px;
+    padding: 8px 12px;
+    cursor: pointer;
+    border-radius: 5px;
+    background: linear-gradient(180deg, #A4BC46 0%, #85A019 100%);
+}
+.btn:hover{
+    color: #FFF;
+}
+.home-left{
+    padding-left:10px;
+}
+.home-left p{
+    margin-bottom: 8px;
+}
+.home-right{
+    margin-bottom: 52px;
+}
+.home-right img{
+    width: 440px;
+}
+/* home-section starts here  */
+.woman{
+    text-transform: uppercase;
+    font-weight: 500;
+    color: #363958;
+    font-family: 'Bebas Neue', cursive;
+    font-size: 49px;
+    line-height: 58px;
+    margin-bottom: 62px;
+}
+.single{
+    background-color:#FFFF;
+    padding: 15px;
+    border-radius: 20px;
+    border: 1px solid black;
+    margin-bottom: 30px;
+    box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.05);
+}
+.single img{
+    width: 293px;
+    display: block;
+    margin: auto;
+    margin-bottom: 12px;
+}
+.single h3{
+    color:#363958;
+    font-size: 24px;
+    line-height:28px;
+    font-weight:bold;
+    margin-bottom: 22px;
+    font-family: 'Roboto', sans-serif;
+}
+.s-footer{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.price{
+    font-weight: 900;
+    color: #FABE4C;
+    font-size: 36px;
+    line-height: 42px;
+    font-style: normal;
+    font-family: 'Roboto', sans-serif;
+    margin-right: 20px;
+    cursor: pointer;
+}
+
+
+
+
+
+
+
+
+
+
+
+/* medium device queary */
+
+@media screen and (max-width:1024px){
+    
+    .home-title{
+        font-size: 55px;
+        line-height: 58px;
+    }
+
+}
