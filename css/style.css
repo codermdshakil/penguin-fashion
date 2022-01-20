@@ -124,6 +124,35 @@ body{
     cursor: pointer;
 }
 
+/* shopping section starts here  */
+.shop{
+    display:flex;
+    align-items: center;
+    margin-bottom: 30px;
+}
+.image-frame{
+    display: block;
+    margin: auto;
+    padding: 20px;
+}
+.image-frame img{
+    width: 100px;
+    height: 90px;
+    padding: 5px;
+}
+.info h3{
+    font-family: 'Roboto', sans-serif;
+    color:#363958;
+    font-weight: bold;
+    font-style: normal;
+    font-size: 24px;
+}
+.info p{
+    font-family: 'Roboto', sans-serif;
+    color:#363958;
+    font-size: 16px;
+    line-height: 26px;
+}
 
 
 
@@ -144,6 +173,12 @@ body{
     .woman-title{
         font-size: 40px;
     }
+    .shop{
+        display:block;
+        align-items: center;
+        justify-content: center;
+        margin-bottom: 50px;
+    }
 
 } 
 
@@ -151,5 +186,6 @@ body{
     .woman-title{
         text-align: center;
     }
+    
     
 }
