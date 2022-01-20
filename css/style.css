@@ -75,8 +75,14 @@ body{
 }
 .home-right img{
     width: 440px;
+    display: block;
+    margin: auto;
+    transition: .3s ease;
 }
-/* home-section starts here  */
+.home-right img:hover{
+    transform: scale(0.9);
+}
+/* home-section starts here  */ 
 .woman-title{
     text-transform: uppercase;
     font-weight: 500;
@@ -89,7 +95,7 @@ body{
 }
 .single{
     background-color:#FFFF;
-    padding: 15px;
+    padding: 20px;
     border-radius: 20px;
     margin-bottom: 30px;
     box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.05);
